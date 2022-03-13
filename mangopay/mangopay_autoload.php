@@ -1,0 +1,31 @@
+<?php
+$dir = "/var/www/html/assets/classes/mangopay/mangopay_";
+$class_ext = ".class.php";
+include($dir . "auth_token" . $class_ext);
+include($dir . "requests" . $class_ext);
+
+include($dir . "bank_account" . $class_ext);
+include($dir . "banking_aliases" . $class_ext);
+include($dir . "clients" . $class_ext);
+include($dir . "dispute_documents" . $class_ext);
+include($dir . "disputes" . $class_ext);
+include($dir . "events" . $class_ext);
+include($dir . "hooks" . $class_ext);
+include($dir . "idempotency_key_lookup" . $class_ext);
+include($dir . "kyc" . $class_ext);
+include($dir . "mandates" . $class_ext);
+include($dir . "payins" . $class_ext);
+include($dir . "payout" . $class_ext);
+include($dir . "permission_groups" . $class_ext);
+include($dir . "refunds" . $class_ext);
+include($dir . "regulatory" . $class_ext);
+include($dir . "reporting" . $class_ext);
+include($dir . "repudiations" . $class_ext);
+include($dir . "settlement_transfer" . $class_ext);
+include($dir . "sso" . $class_ext);
+include($dir . "transactions" . $class_ext);
+include($dir . "transfers" . $class_ext);
+include($dir . "ubo_declarations" . $class_ext);
+include($dir . "user_emoney" . $class_ext);
+include($dir . "users" . $class_ext);
+include($dir . "wallets" . $class_ext);
